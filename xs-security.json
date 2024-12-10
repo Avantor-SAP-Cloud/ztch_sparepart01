@@ -1,0 +1,21 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.administrator",
+      "description": "administrator"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "administrator",
+      "description": "administrator",
+      "scope-references": [
+        "$XSAPPNAME.administrator"
+      ],
+      "attribute-references": []
+    }
+  ],
+  "xsappname": "ztch_sparepart01",
+  "tenant-mode": "dedicated"
+}

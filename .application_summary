@@ -1,0 +1,5 @@
+{
+  "ProjectOverviewURL": "https://avtr-apps01-dev.launchpad.cfapps.us10.hana.ondemand.com/lcapztch_sparepart01.ztch_sparepart01Launchpad-1.0.0/",
+  "DeployedUTCTime": "2024-12-07T12:36:27.015Z",
+  "ApplicationLogURL": "https://logs.cf.us10-001.hana.ondemand.com/app/dashboards#/view/Overview?_g=(filters:!((query:(match_phrase:(component_name:ztch_sparepart01-srv)))))"
+}

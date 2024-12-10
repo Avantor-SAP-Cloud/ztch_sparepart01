@@ -1,0 +1,2 @@
+sap.ui.define(["sap/fe/test/ListReport"],function(t){"use strict";var e={actions:{},assertions:{}};return new t({appId:"ztchsparepart01.ztchtestappsparepartsrequests",componentId:"ServiceOrgsList",contextPath:"/ServiceOrgs"},e)});
+//# sourceMappingURL=ServiceOrgsList.js.map

@@ -1,0 +1,2 @@
+sap.ui.define(["sap/fe/test/ObjectPage"],function(e){"use strict";var t={actions:{},assertions:{}};return new e({appId:"ztchsparepart01.ztchtestappsparepartsrequests",componentId:"ServiceOrgsObjectPage",contextPath:"/ServiceOrgs"},t)});
+//# sourceMappingURL=ServiceOrgsObjectPage.js.map
