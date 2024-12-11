@@ -15,5 +15,7 @@
       ],
       "attribute-references": []
     }
-  ]
+  ],
+  "xsappname": "ztch_sparepart01",
+  "tenant-mode": "dedicated"
 }
