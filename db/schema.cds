@@ -16,4 +16,5 @@ from '@sap/cds/common';
 entity ServiceOrgs : managed
 {
     key ID : UUID;
+    Description : String(100);
 }

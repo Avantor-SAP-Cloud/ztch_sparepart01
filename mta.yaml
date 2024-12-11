@@ -106,13 +106,13 @@ modules:
               TokenServiceKeyName: ztch_sparepart01-uaa-key
               URL: ~{srv-api/srv-url}/service/Admin
               sap.cloud.service: lcap.ztch_sparepart01
-              sap.applicationdevelopment.actions.enabled: false
+              sap.applicationdevelopment.actions.enabled: true
               sap.build.usage: CAP
-              sap.processautomation.enabled: false
-              HTML5.DynamicDestination: false
-              WebIDEEnabled: false
-              MobileEnabled: false
-              AppgyverEnabled: false
+              sap.processautomation.enabled: true
+              HTML5.DynamicDestination: true
+              WebIDEEnabled: true
+              MobileEnabled: true
+              AppgyverEnabled: true
     build-parameters:
       no-source: true
     requires:
@@ -182,6 +182,7 @@ resources:
             name: ztch_sparepart01-administrator-${space}
             role-template-references:
               - $XSAPPNAME.Admin
+        tenant-mode: dedicated
   - type: org.cloudfoundry.managed-service
     name: ztch_sparepart01-service-db
     parameters:

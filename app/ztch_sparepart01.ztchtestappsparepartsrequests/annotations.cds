@@ -3,6 +3,16 @@ annotate service.ServiceOrgs with @(
     UI.FieldGroup #GeneratedGroup : {
         $Type : 'UI.FieldGroupType',
         Data : [
+            {
+                $Type : 'UI.DataField',
+                Value : ID,
+                Label : 'ID',
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : Description,
+                Label : 'Description',
+            },
         ],
     },
     UI.Facets : [

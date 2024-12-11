@@ -9,13 +9,11 @@
   "role-templates": [
     {
       "name": "administrator",
-      "description": "administrator",
+      "description": "generated",
       "scope-references": [
         "$XSAPPNAME.administrator"
       ],
       "attribute-references": []
     }
-  ],
-  "xsappname": "ztch_sparepart01",
-  "tenant-mode": "dedicated"
+  ]
 }
